@@ -56,7 +56,7 @@ export default function Navigation() {
                     component={HomeScreen} 
                     options = {{
                         tabBarIcon: ( {size, color} ) => (
-                            <EntypoIcons name="chat" size={size} color={color} />
+                            <AntIcons name="inbox" size={size} color={color} />
                         )
                     }}
                 />
